@@ -1,0 +1,25 @@
+{
+  "canisters": {
+    "token": {
+      "main": "src/token/main.mo",
+      "type": "motoko"
+    },
+    "storage": {
+      "main": "src/token/storage.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": ""
+    }
+  },
+  "dfx": "0.7.2",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
